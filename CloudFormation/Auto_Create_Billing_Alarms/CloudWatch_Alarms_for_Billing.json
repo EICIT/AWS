@@ -5,22 +5,26 @@
   "Parameters" : {
       "Email" : {
           "Type" : "String",
-          "Description" : "Email address to notify when billing has exceeded threshold"
+          "Description" : "Email address to notify when billing has exceeded threshold",
+		  "MinLength": "6"
       },
 	  "1stAlarmThreshold" : {
           "Type" : "Number",
 		  "Default" : "2",
-          "Description" : "Please enter the dollar amount threshold you want the 1st alarm to alert you on."
+          "Description" : "Please enter the dollar amount threshold you want the 1st alarm to alert you on.",
+		  "MinValue": "1"
       },
 	  "2ndAlarmThreshold" : {
           "Type" : "Number",
 		  "Default" : "6",
-          "Description" : "Please enter the dollar amount threshold you want the 2nd alarm to alert you on."
+          "Description" : "Please enter the dollar amount threshold you want the 2nd alarm to alert you on.",
+		  "MinValue": "1"
       },
 	  "3rdAlarmThreshold" : {
           "Type" : "Number",
 		  "Default" : "12",
-          "Description" : "Please enter the dollar amount threshold you want the Final alarm to alert you on."
+          "Description" : "Please enter the dollar amount threshold you want the Final alarm to alert you on.",
+		  "MinValue": "1"
       }
   },
   "Resources" : {
