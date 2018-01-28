@@ -1,4 +1,4 @@
-# Auto Create 3 Billing Alarms
+# Auto Create 3 Billing Alarms & Email Notification
 
 This CF Template helps new users on AWS to automagically create 3 Billing Alerts with user input billing amounts to ensure you do not get any suprises at the end of the month.
 
