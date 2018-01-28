@@ -10,8 +10,8 @@ This template creates 3 Billing Alarms in CloudWatch and 1 SNS notification.
 4. You can add additional billing alerts manually from the cloudwatch dashboard if you wish to.
 5. The Cloudwatch Alarms & SNS notifications that are created by this template ideally should not cost you anything as they fit very well within the Free Tier. If you are outside of the free tier, please review your total alarms count to ensure you are aware of how much additional this would cost you.
 6. Please ensure you confirm the alert subscription that would come to your email address post creating this stack.
------------
-# Setup Instructions
+
+## Setup Instructions
 
 1. Log into your AWS dashboard and ensure you are in the US East North Virginia Region.
 2. Go to Cloudformation and click on Create Stack.
